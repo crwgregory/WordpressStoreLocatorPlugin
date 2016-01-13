@@ -1,0 +1,31 @@
+<div class="admin-control-container">
+	<h1>Add new location</h1>
+	<div id="new-location-container" class="form-container">
+		<form onsubmit="newLocation(); return false" id="new-location-form">
+			<input id="location-form-name" type="text" placeholder="Name" required>
+			<input id="location-form-address" type="text" placeholder="Address" required>
+			<input type="submit">
+		</form>
+	</div>
+
+	<div class="locations-container">
+		<h1>Current Locations</h1>
+		<form onsubmit="deleteLocations(); return false">
+			<div class="locations">
+					<table style="width:100%" >
+						<thead>							
+							<tr>
+								<th class="select">Select</th>
+								<th>Name</th>
+								<th>Address</th>					
+							</tr>
+						</thead>
+						<tbody id="store-locations">
+						<tbody>
+					</table>
+			</div>
+			<div id="results"></div>
+			<input type="submit" value="Delete selected">
+		</form>
+	</div>
+</div>

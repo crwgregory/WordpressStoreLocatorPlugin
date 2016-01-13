@@ -1,0 +1,33 @@
+table, th, td {
+    border-collapse: collapse;
+}
+th, td{
+	padding: .5em 1em;
+}
+th{
+	text-align:left;
+}
+.admin-control-container{
+	margin: 5em 0;
+	max-width: 60%;
+}
+
+.locations-container{
+	margin: 5em 0;
+}
+
+.locations{	
+	border-style:solid;
+	border-width: 1px;
+	border-color: black;	
+	max-height: 500px;
+	overflow-y: scroll;
+}
+
+.select{
+	width: 1em;
+}
+
+td.select{
+	text-align:center;
+}
